@@ -1,21 +1,17 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import './App.css'
 import { MenuNav } from './components/MenuNav'
-import { SectionHero } from './components/SectionHero'
-
+import { HomePage } from './paghes/Home'
 
 function App() {
 
   return (
-          <>
-          <MenuNav />
-
-          <SectionHero/>
-          </>
+          <main>
+            <MenuNav />
+            <HomePage />
+          </main>
   
   )
           
 }
-
 export default App

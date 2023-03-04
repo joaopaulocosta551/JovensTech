@@ -6,7 +6,6 @@ export const Nav = styled.nav`
     max-width: 80rem;
     width: 100%;
     align-items: center;
-    top: 1.25rem;
-    position: absolute;
+    margin-top: 1.25rem;
 
 `;

@@ -8,9 +8,11 @@ export const Button = styled.div`
     width: 8.8rem;
     height: 3rem;
     background-color: #A3FFBF;
-    color: white;
+    color: black;
     border-radius: 0.5rem;
     font-size: 16px;
+    margin-top: 3rem;
+    font-weight: 700;
 
     &:hover{
         background-color: #a3ffbfa1;
