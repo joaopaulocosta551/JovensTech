@@ -1,10 +1,12 @@
-import { Card, Cards, SectionContainer, SocialLink, TextCard, VideoSection } from "./styles";
+import { SectionContainer, SocialLink, VideoSection } from "./styles";
 import { Title } from "../../components/Typography/Title";
 import { Paragraph } from "../../components/Typography/Paragraph";
 import { PrimaryButton } from "../../components/PrimaryButton";
-import { BsInstagram, BsPerson } from 'react-icons/bs'
+import { BsInstagram } from 'react-icons/bs'
 import { SubTitle } from "../../components/Typography/SubTitle";
 import { SectionCards } from "./SectionCards";
+import { SectionSlider } from "./SectionSlider";
+import { SctionInscrition } from "./SectionInscrition";
 
 export const HomePage = () => {
   return (
@@ -25,10 +27,9 @@ export const HomePage = () => {
             <BsInstagram />
             <p>@jovenstechpira</p>
         </SocialLink>
-        <SubTitle>
-        Por que participar do Jovens Tech?
-        </SubTitle>
         <SectionCards />
+        <SectionSlider />
+        <SctionInscrition />
       </SectionContainer>
     </>
   );

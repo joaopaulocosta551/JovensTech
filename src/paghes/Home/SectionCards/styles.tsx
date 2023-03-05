@@ -16,10 +16,12 @@ export const Card = styled.div`
     height: 17.62rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
     border-radius: 1rem;
-    background: linear-gradient(44.42deg, rgba(191, 44, 78, 0.9) -12.5%, rgba(139, 31, 109, 0.9) 50.12%, rgba(73, 64, 157, 0.9) 108.75%), #000000;
+    box-sizing: border-box;
 `;
 
 export const IconCard = styled.div`
