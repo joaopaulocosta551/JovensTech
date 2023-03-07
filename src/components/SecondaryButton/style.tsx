@@ -11,6 +11,7 @@ export const Button = styled.div`
     border-radius: 0.5rem;
     font-size: 16px;
     gap: 0.5rem;
+    border: 1px solid transparent;
 
     &:hover{
         background-color: rgba(255, 255, 255, 0.1);

@@ -5,6 +5,4 @@ export const TitleH2 = styled.h2`
     width: 100%;
     font-size: 2.3rem;
     text-align: center;
-    margin-top: 12.5rem;
-    
 `;

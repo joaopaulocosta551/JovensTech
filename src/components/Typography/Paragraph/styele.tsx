@@ -5,6 +5,4 @@ export const Title = styled.p`
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     text-align: center;
-    margin-top: 1.5rem;
-
 `

@@ -1,11 +1,20 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
+
+    h1, h2, h3, h4, h5, h6, p{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
     body{
         margin: 0;
         padding: 0;
         width: 100vw;
-        height: 100vh;
         box-sizing: border-box; 
         background-color: #030932;
         display: flex;
@@ -23,7 +32,7 @@ export const GlobalStyles = createGlobalStyle`
        
     }
 
-    main{
+    /* .aux{
         width: 100%;
         background: url(/hero-bg.svg) ;
         background-size: 100%;
@@ -31,6 +40,6 @@ export const GlobalStyles = createGlobalStyle`
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+    } */
 
 `;
