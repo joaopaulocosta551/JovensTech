@@ -11,8 +11,8 @@ export const BoxTeacher = styled.div`
     margin-top: 4.5rem;
     background-image: url(${ BoxTeacherBackground });
     border-radius: 16px;
-    background-position-y: bottom;
     background-size: contain;
+    justify-content: flex-end;
     
 `;
 
@@ -22,8 +22,21 @@ export const DivWhiteTeacher = styled.div`
     height: 9rem;
     background-color: white;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
     flex-direction: row;
+    border-radius: 16px;
 `;
+
+export const CardIconPhoto = styled.div`
+    display: 11.375rem;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+`
 
 
 
