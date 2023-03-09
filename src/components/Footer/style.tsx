@@ -7,7 +7,6 @@ export const ContentFooter = styled.footer`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 6.25rem;
 `;
 
 export const DivContent = styled.div`

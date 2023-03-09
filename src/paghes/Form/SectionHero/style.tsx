@@ -6,9 +6,16 @@ export const BoxHero = styled.section`
    display: flex;
    flex-direction: column;
    align-items: center; 
+   
 `;
 
-export const Inputs = styled.input`
-   border-radius: 8px;
+export const DivRowInput = styled.div`
+   max-width: 55.875rem;
+   width: 100%;
+   max-height: 4.25rem;
+   display: flex;
+   flex-direction: row;
 `
+
+
 

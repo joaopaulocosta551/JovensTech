@@ -5,13 +5,15 @@ import { MenuNav } from "./components/MenuNav";
 import { CursoPage } from "./paghes/Curso";
 import { Form } from "./paghes/Form";
 import { HomePage } from "./paghes/Home";
+import { Imprensa } from "./paghes/Imprensa";
 
 function App() {
   return (
     <main>
       {/* <HomePage /> */}
       {/* <CursoPage /> */}
-    <Form />
+      {/* <Form /> */}
+      <Imprensa />
     </main>
   );
 }

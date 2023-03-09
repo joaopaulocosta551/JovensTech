@@ -5,7 +5,7 @@ export const Button = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 8.8rem;
+    max-width: 13.313rem;
     height: 3rem;
     background-color: #A3FFBF;
     color: black;
@@ -18,5 +18,5 @@ export const Button = styled.div`
         background-color: #a3ffbfa1;
         cursor: pointer;
     }
-;
-`
+
+ `;

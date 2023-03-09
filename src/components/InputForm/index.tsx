@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container } from "./style";
+import { Container, DivRowInputs, InputStyle } from "./style";
 import InputMask from 'react-input-mask';
 
 interface IProps {
@@ -17,11 +17,25 @@ export const InputForm = (props: IProps) => {
         "CPF": "999.999.999-99",
     };
 
+    
+  
   return (
-    <Container>
-      <label>{props.label}</label>
-      <InputMask mask={MASKS[props.mask || "DEFAULT"]} />
-      {/* <input placeholder={props.placeholder} type={props.type} /> */}
-    </Container>
+    <div style={{maxWidth: "27.88rem", width:"27.88rem", height:""}}>
+    <label>{props.label}</label>
+    <InputStyle>
+        <DivRowInputs>
+          <Container>
+            <InputMask style={{width: "100%", 
+            height: "100%",
+            background: "transparent",
+            border: "none",
+            outline:"none",
+            marginLeft: "10px",
+            color:"#ffffffa2",
+            fontSize:"16px"}} mask={MASKS[props.mask || "DEFAULT"]} />
+          </Container>
+        </DivRowInputs>
+    </InputStyle>
+    </div>
   );
 };

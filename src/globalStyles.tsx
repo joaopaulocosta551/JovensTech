@@ -29,8 +29,8 @@ export const GlobalStyles = createGlobalStyle`
         display: flex;
         width: 100vw;
         flex-direction: column;
-       
     }
+
 
     /* .aux{
         width: 100%;

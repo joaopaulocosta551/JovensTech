@@ -1,7 +1,7 @@
 import { InputForm } from "@/components/InputForm";
 import { SubTitleH3 } from "@/components/Typography/SubTitleH3";
 import { Paragraph } from "../../../components/Typography/Paragraph";
-import { BoxHero } from "./style";
+import { BoxHero, DivRowInput } from "./style";
 
 export const SectionHero = () => {
   return (
@@ -10,9 +10,13 @@ export const SectionHero = () => {
       <Paragraph>
       Esse é o primeiro passo que você vai dar para alavancar sua carreira.
       </Paragraph>
-      <form style={{marginTop: '5.5rem'}}>
-        <InputForm label="Nome completo" placeholder="Nome" type="text" />
-      </form>
+        <form style={{marginTop: '5.5rem'}}>
+      <DivRowInput>
+          <InputForm label="Nome completo" placeholder="Nome" type="text" />
+          <InputForm label="Data de nascimento" placeholder="dd/mm/aa" type="text" />
+          <InputForm label="CPF" placeholder="999.999.999-99" mask="CPF" type={""} />
+      </DivRowInput>
+        </form>
     </BoxHero>
   );
 };
