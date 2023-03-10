@@ -6,6 +6,7 @@ import { CursoPage } from "./paghes/Curso";
 import { Form } from "./paghes/Form";
 import { HomePage } from "./paghes/Home";
 import { Imprensa } from "./paghes/Imprensa";
+import { Questions } from "./paghes/Questions";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <HomePage /> */}
       {/* <CursoPage /> */}
       {/* <Form /> */}
-      <Imprensa />
+      {/* <Imprensa /> */}
+      <Questions/>
     </main>
   );
 }
