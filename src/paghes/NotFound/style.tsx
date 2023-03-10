@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const SectionRegistrations = styled.section`
+export const SectionNotFound = styled.section`
   width: 100%;
   display: flex;
   flex-direction: column;

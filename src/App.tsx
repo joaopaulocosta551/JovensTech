@@ -6,6 +6,7 @@ import { CursoPage } from "./paghes/Curso";
 import { Form } from "./paghes/Form";
 import { HomePage } from "./paghes/Home";
 import { Imprensa } from "./paghes/Imprensa";
+import { NotFound } from "./paghes/NotFound";
 import { Questions } from "./paghes/Questions";
 import { SucessfulRegistrations } from "./paghes/SuccessfulRegistrations";
 
@@ -17,7 +18,8 @@ function App() {
       {/* <Form /> */}
       {/* <Imprensa /> */}
       {/* <Questions/> */}
-      <SucessfulRegistrations/>
+      {/* <SucessfulRegistrations/> */}
+      <NotFound/>
     </main>
   );
 }

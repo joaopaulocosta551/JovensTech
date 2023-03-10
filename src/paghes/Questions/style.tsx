@@ -6,3 +6,4 @@ export const SectionQuestions = styled.section`
     justify-content: center;
     align-items: center;
 `
+
