@@ -7,6 +7,7 @@ import { Form } from "./paghes/Form";
 import { HomePage } from "./paghes/Home";
 import { Imprensa } from "./paghes/Imprensa";
 import { Questions } from "./paghes/Questions";
+import { SucessfulRegistrations } from "./paghes/SuccessfulRegistrations";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <CursoPage /> */}
       {/* <Form /> */}
       {/* <Imprensa /> */}
-      <Questions/>
+      {/* <Questions/> */}
+      <SucessfulRegistrations/>
     </main>
   );
 }
