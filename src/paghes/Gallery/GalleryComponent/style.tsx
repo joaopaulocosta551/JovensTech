@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-export const GridGallery = styled.div<{direction:boolean}>`
-  display: grid;
+export const GridGallery = styled.div<{direction:boolean, showGallery:boolean}>`
+  display: ${props => props.showGallery ? 'grid' : 'none'};
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 1.5rem;

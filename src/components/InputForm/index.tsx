@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { Container, DivRowInputs, InputStyle } from "./styles";
+import { Container, DivRowInputs, PrimaryInput } from "./styles";
 import InputMask from 'react-input-mask';
-
 interface IProps {
     type: string;
     mask?: "CPF" | "PHONE";
@@ -17,12 +16,10 @@ export const InputForm = (props: IProps) => {
         "CPF": "999.999.999-99",
     };
 
-    
-  
   return (
-    <div style={{maxWidth: "27.88rem", width:"27.88rem", height:""}}>
+    <div style={{maxWidth: "27.88rem", width:"100%", height:""}}>
     <label>{props.label}</label>
-    <InputStyle>
+    <PrimaryInput>
         <DivRowInputs>
           <Container>
             <InputMask style={{width: "100%", 
@@ -35,7 +32,7 @@ export const InputForm = (props: IProps) => {
             fontSize:"16px"}} mask={MASKS[props.mask || "DEFAULT"]} />
           </Container>
         </DivRowInputs>
-    </InputStyle>
+    </PrimaryInput>
     </div>
   );
 };
