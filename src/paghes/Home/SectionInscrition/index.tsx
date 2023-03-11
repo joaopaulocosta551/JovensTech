@@ -1,5 +1,5 @@
 import { SubTitle } from "../../../components/Typography/SubTitle"
-import { CardIncrition, DivImg, DivGradientText, DivSolidColor, DivContenteTextButton, TextSolidColor } from "./style"
+import { CardIncrition, DivImg, DivGradientText, DivSolidColor, DivContenteTextButton, TextSolidColor } from "./styles"
 import Photo from "../../../assets/imgDecoration/Photo.png"
 import { Paragraph } from "../../../components/Typography/Paragraph"
 import { PrimaryButton } from "../../../components/PrimaryButton"

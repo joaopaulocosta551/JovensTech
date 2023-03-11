@@ -1,4 +1,4 @@
-import { Li, Link, Ul } from "./style";
+import { Li, Link, Ul } from "./styles";
 
 export function LinkMenu(){
     return (

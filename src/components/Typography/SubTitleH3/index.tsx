@@ -1,4 +1,4 @@
-import { ComponyName } from "./style"
+import { ComponyName } from "./styles"
 
 interface IProsp {
     children: string;

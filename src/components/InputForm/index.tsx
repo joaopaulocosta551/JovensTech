@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, DivRowInputs, InputStyle } from "./style";
+import { Container, DivRowInputs, InputStyle } from "./styles";
 import InputMask from 'react-input-mask';
 
 interface IProps {

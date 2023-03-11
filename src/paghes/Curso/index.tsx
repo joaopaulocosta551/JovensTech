@@ -4,7 +4,7 @@ import { SectionTeacher } from "./SecitionTeacher";
 import { SectionCardInfo } from "./SectionCardInfo";
 import { SectionHero } from "./SectionHero";
 import { SectionMoreInfo } from "./SectionMoreInfo";
-import { Container } from "./style";
+import { Container } from "./styles";
 
 export const CursoPage = () => {
   return (

@@ -1,4 +1,4 @@
-import { DivTitle } from "./estyle";
+import { DivTitle } from "./estyles";
 
 interface IProps {
     children: string;

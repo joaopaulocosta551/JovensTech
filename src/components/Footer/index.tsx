@@ -1,4 +1,4 @@
-import { ContentFooter, DivContent, DivContentFooter, TextCopyright } from "./style";
+import { ContentFooter, DivContent, DivContentFooter, TextCopyright } from "./styles";
 import Logo from '../../../public/logo_horizontal.svg'
 
 export const Footer = () => {

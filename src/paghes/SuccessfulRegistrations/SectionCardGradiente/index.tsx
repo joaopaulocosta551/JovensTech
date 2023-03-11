@@ -1,4 +1,4 @@
-import { BoxTeacher, DivTextContent, DivWhiteTeacher } from "./style";
+import { BoxTeacher, DivTextContent, DivWhiteTeacher } from "./styles";
 import {TbBellRingingFilled} from 'react-icons/tb';
 import { SubTitleH4 } from "@/components/Typography/SubTitleH4";
 import { Paragraph } from "@/components/Typography/Paragraph";

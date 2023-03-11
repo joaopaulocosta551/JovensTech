@@ -1,4 +1,4 @@
-import {CardIconDate, DivInfDateInfo, DivSolidColor} from './style';
+import {CardIconDate, DivInfDateInfo, DivSolidColor} from './styles';
 import  {MdOutlineTimer} from 'react-icons/md';
 import {MdTimelapse} from 'react-icons/md';
 import {BsCalendarEvent} from 'react-icons/bs';

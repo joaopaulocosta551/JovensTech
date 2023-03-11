@@ -7,7 +7,7 @@ import {
   DivContenteTextButton,
   TextSolidColor,
   Border,
-} from "./style";
+} from "./styles";
 import Photo from "../../../assets/imgDecoration/Photo.png";
 import Peoples from "@/assets/imgDecoration/pessoas.png";
 import { Paragraph } from "../../../components/Typography/Paragraph";

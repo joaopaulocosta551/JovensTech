@@ -1,4 +1,4 @@
-import {TitleH2} from './style'
+import {TitleH2} from './styles'
 
 interface IProps {
     children: string;

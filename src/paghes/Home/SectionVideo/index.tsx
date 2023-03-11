@@ -1,4 +1,4 @@
-import { SocialLink, VideoSection } from "./style";
+import { SocialLink, VideoSection } from "./styles";
 import { BsInstagram } from 'react-icons/bs'
 
 export const SectionVideo = () => {

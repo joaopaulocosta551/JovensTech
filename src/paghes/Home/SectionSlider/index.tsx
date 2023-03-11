@@ -2,7 +2,7 @@ import  "react-responsive-carousel/lib/styles/carousel.min.css" ;  // requer um 
 import  {  Carousel  }  from  'react-responsive-carousel' ; 
 
 import { SubTitle } from "../../../components/Typography/SubTitle";
-import { CompanyDescription, ContainerSlider, DivBorderGradient, DivGradientText, DivImg, DivText, } from "./style";
+import { CompanyDescription, ContainerSlider, DivBorderGradient, DivGradientText, DivImg, DivText, } from "./styles";
 import { Paragraph } from "../../../components/Typography/Paragraph";
 import  Boilisen from "../../../assets/imageLog/boilisen.png";
 import Mtcorp from "../../../assets/imageLog/mtcorp.png";

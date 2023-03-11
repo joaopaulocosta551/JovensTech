@@ -1,5 +1,5 @@
 import { PrimaryButton } from "@/components/PrimaryButton";
-import { SectionInf, DivContent, List } from "./style";
+import { SectionInf, DivContent, List } from "./styles";
 
 export const SectionMoreInfo = () => {
 return(

@@ -4,6 +4,7 @@ import { Footer } from "./components/Footer";
 import { MenuNav } from "./components/MenuNav";
 import { CursoPage } from "./paghes/Curso";
 import { Form } from "./paghes/Form";
+import { Gallery } from "./paghes/Gallery";
 import { HomePage } from "./paghes/Home";
 import { Imprensa } from "./paghes/Imprensa";
 import { NotFound } from "./paghes/NotFound";
@@ -19,7 +20,8 @@ function App() {
       {/* <Imprensa /> */}
       {/* <Questions/> */}
       {/* <SucessfulRegistrations/> */}
-      <NotFound/>
+      {/* <NotFound/> */}
+      <Gallery />
     </main>
   );
 }

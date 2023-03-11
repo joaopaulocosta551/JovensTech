@@ -3,7 +3,7 @@ import { MenuNav } from "@/components/MenuNav";
 import { Paragraph } from "@/components/Typography/Paragraph";
 import { SubTitle } from "@/components/Typography/SubTitle";
 import { SectionMoreQuestions } from "./SectionMoreQuestions";
-import { SectionQuestions } from "./style";
+import { SectionQuestions } from "./styles";
 
 export const Questions = () => {
   return (

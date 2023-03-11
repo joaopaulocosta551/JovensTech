@@ -5,9 +5,9 @@ import { SecondaryButton } from "@/components/SecondaryButton";
 import { Paragraph } from "@/components/Typography/Paragraph";
 import { SubTitle } from "@/components/Typography/SubTitle";
 import { Title } from "@/components/Typography/Title";
-import { BoxHero } from "../Curso/SectionHero/style";
+import { BoxHero } from "../Curso/SectionHero/styles";
 import { SctionInscrition } from "./SectionInscrition";
-import { SectionImprensa } from "./style";
+import { SectionImprensa } from "./styles";
 
 export const Imprensa = () => {
   return (

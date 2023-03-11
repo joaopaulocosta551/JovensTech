@@ -1,4 +1,4 @@
-import { Title } from "./styele"
+import { Title } from "./styles"
 
 interface IProps {
     children: string

@@ -1,7 +1,7 @@
 import { InputForm } from "@/components/InputForm";
 import { SubTitleH3 } from "@/components/Typography/SubTitleH3";
 import { Paragraph } from "../../../components/Typography/Paragraph";
-import { BoxHero, DivRowInput } from "./style";
+import { BoxHero, DivRowInput } from "./styles";
 
 export const SectionHero = () => {
   return (

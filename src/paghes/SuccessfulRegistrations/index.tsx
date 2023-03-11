@@ -3,7 +3,7 @@ import { MenuNav } from "@/components/MenuNav";
 import { Paragraph } from "@/components/Typography/Paragraph";
 import { SubTitle } from "@/components/Typography/SubTitle";
 import { SectionCardGradiente } from "./SectionCardGradiente";
-import { SectionRegistrations } from "./styled";
+import { SectionRegistrations } from "./styles";
 
 export const SucessfulRegistrations = () => {
   return (

@@ -1,5 +1,5 @@
-import { SectionQuestions, Whiteline } from "./style";
-import { DivContent } from "./style";
+import { SectionQuestions, Whiteline } from "./styles";
+import { DivContent } from "./styles";
 
 export const SectionMoreQuestions = () => {
   return (

@@ -1,4 +1,4 @@
-import {Button} from './style'
+import {Button} from './styles'
 
 interface IProps{
     value: string;

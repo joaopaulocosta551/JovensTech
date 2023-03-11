@@ -2,7 +2,7 @@ import { SubTitleH3 } from "@/components/Typography/SubTitleH3";
 import { SubTitleH4 } from "@/components/Typography/SubTitleH4";
 import { PrimaryButton } from "../../../components/PrimaryButton";
 import { Paragraph } from "../../../components/Typography/Paragraph";
-import { BoxHero } from "./style";
+import { BoxHero } from "./styles";
 
 export const SectionHero = () => {
   return (
