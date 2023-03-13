@@ -88,6 +88,20 @@ export const GalleryComponent = ({ showRestOfGalleries }: IProps) => {
         alt: "Teste imagem",
       },
     ],
+    [
+      {
+        images: Photo15,
+        alt: "Alunos reunidos numa sala de aula",
+      },
+      {
+        images: Photo16,
+        alt: "Alunos reunidos numa sala de aula",
+      },
+      {
+        images: Photo17,
+        alt: "Teste imagem",
+      },
+    ],
   ];
 
   return (

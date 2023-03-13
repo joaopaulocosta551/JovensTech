@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
+  height: 4.25rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 `;
 
 export const PrimaryInput = styled.div`
@@ -11,23 +15,17 @@ export const PrimaryInput = styled.div`
   border-radius: 8px;
   border: 1px solid white;
   display: flex;
+  height: 3rem;
 `;
 
 export const SecundInput = styled.div`
   max-width: 13.563rem;
-  width: 100%;
+  width: 100%; 
   height: 3rem;
-  border: solid solid white;
+  border: solid 1px white;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-radius: 8px;
   `;
 
-  export const DivRowInputs = styled.div`
-    display: flex;
-    max-width: 55.875rem;
-    width: 100%;
-    flex-direction: row;
-    color: #ffffffa2;
-  `;

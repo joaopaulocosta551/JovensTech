@@ -16,12 +16,12 @@ function App() {
     <main>
       {/* <HomePage /> */}
       {/* <CursoPage /> */}
-      {/* <Form /> */}
+      <Form />   
       {/* <Imprensa /> */}
       {/* <Questions/> */}
       {/* <SucessfulRegistrations/> */}
       {/* <NotFound/> */}
-      <Gallery />
+      {/* <Gallery /> */}
     </main>
   );
 }

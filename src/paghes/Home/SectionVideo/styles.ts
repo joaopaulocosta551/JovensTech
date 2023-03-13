@@ -7,7 +7,6 @@ export const VideoSection = styled.div`
     border-radius: 8px;
     box-shadow: 0px 8px 24px rgba(39, 47, 100, 0.64);
     margin-top: 12.5rem;
-    
 `; 
 
 export const SocialLink = styled.div`
@@ -19,5 +18,4 @@ export const SocialLink = styled.div`
     gap: 1rem;
     margin-top: 4rem;
     cursor: pointer;
-
 `;
