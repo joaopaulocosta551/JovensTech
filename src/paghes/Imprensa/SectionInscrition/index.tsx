@@ -31,9 +31,7 @@ export const SctionInscrition = () => {
       <CardIncrition>
         <Border>
           <div>
-            {/* <DivSolidColor>
-                        
-                    </DivSolidColor> */}
+           
           </div>
         </Border>
 
@@ -48,7 +46,6 @@ export const SctionInscrition = () => {
           </TextSolidColor>
         </DivContenteTextButton>
 
-        
         <DivImg>
           <img
             src={Peoples}

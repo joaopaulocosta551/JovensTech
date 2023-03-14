@@ -6,6 +6,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 position: relative;
+margin-top: 2.5rem;
 `;
 
 export const DivGradientText = styled.div`
@@ -22,9 +23,8 @@ export const DivSolidColor = styled.div`
     height: 21.5rem;
     align-items: center;
     justify-content: flex-start;
-    
-
 `; 
+
 export const DivContenteTextButton = styled.div`
     width: 20.688rem;
     height: 17.75rem;

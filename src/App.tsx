@@ -16,8 +16,8 @@ function App() {
     <main>
       {/* <HomePage /> */}
       {/* <CursoPage /> */}
-      <Form />   
-      {/* <Imprensa /> */}
+      {/* <Form />    */}
+      <Imprensa />
       {/* <Questions/> */}
       {/* <SucessfulRegistrations/> */}
       {/* <NotFound/> */}
