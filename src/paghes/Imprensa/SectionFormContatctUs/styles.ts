@@ -11,4 +11,32 @@ export const BorderForm = styled.div`
      linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
      mask-composite: exclude;
+     margin-top: 1.5rem;
+     margin-bottom: 3.5rem;
+     position:relative;
 `;
+
+export const ContentForms = styled.div`
+   max-width: 44.875rem;
+   width: 100%;
+   height: 28.938rem;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   margin-top:  2050px;
+   position: absolute;
+`
+
+
+export const DivRowInputs = styled.div`
+   height: 4.25rem;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 1.5rem;
+   /* MARGIN BOTTOM TEMPORARIA PARA TESTAR OS CONMPOTNES */
+   margin-bottom: 1.5rem;
+   margin-top: 1.5rem;
+   `;

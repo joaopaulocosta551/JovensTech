@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-export const Inputtext = styled.div`
-  width: 100%;
-  max-height: 27.188rem;
+export const InputCpf = styled.div`
+  width: 14.375rem;
   height: 3rem;
   border-radius: 8px;
   border: 1px solid white;
@@ -14,7 +13,6 @@ export const Inputtext = styled.div`
     cursor: pointer;
   }
 `;
-
 export const CustInput = styled.input`
   width: 100%;
   height: 2.9rem;
@@ -28,8 +26,4 @@ export const CustInput = styled.input`
   margin: 0;
   font-family: inherit;
   border: none;
-`
-
-
-
-
+`;

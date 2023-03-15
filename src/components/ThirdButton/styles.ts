@@ -10,6 +10,7 @@ export const Button =styled.div`
     color: white;
     font-size: 16px;
     border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
     font-size: 16px;
 
     &:hover{

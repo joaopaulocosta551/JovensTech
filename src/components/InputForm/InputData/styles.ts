@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
-export const Inputtext = styled.div`
-  width: 100%;
-  max-height: 27.188rem;
+export const Inputdata = styled.div`
+  width: 11.313rem;
   height: 3rem;
   border-radius: 8px;
   border: 1px solid white;
   color: rgba(255, 255, 255, 0.65);
   transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 
   &:hover {
     background-color: rgba(255, 255, 255, 0.1);
@@ -16,7 +18,7 @@ export const Inputtext = styled.div`
 `;
 
 export const CustInput = styled.input`
-  width: 100%;
+  width: 50%;
   height: 2.9rem;
   color: rgba(255, 255, 255, 0.64);
   font-size: 16px;
@@ -29,7 +31,3 @@ export const CustInput = styled.input`
   font-family: inherit;
   border: none;
 `
-
-
-
-

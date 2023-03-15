@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const SectionTextForms = styled.section`
    max-width: 67.875rem;
+   width: 100%;
    display: flex;
    flex-direction: column;
    align-items: center; 
@@ -10,7 +11,15 @@ export const SectionTextForms = styled.section`
    margin-top: 5rem;
 `;
 
+export const ContentForm = styled.div`
+   max-width: 56.125rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start; 
+`;
+
 export const DivRowInputs = styled.div`
+   width: 56.125rem;
    height: 4.25rem;
    display: flex;
    flex-direction: row;

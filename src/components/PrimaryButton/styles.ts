@@ -5,7 +5,8 @@ export const Button = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 13.313rem;
+    max-width: 10.938rem;
+    width: 100%;
     height: 3rem;
     background-color: #A3FFBF;
     color: black;
@@ -13,8 +14,11 @@ export const Button = styled.div`
     font-size: 16px;
     margin-top: 3rem;
     font-weight: 700;
+    
+    transition: background-color 0.3s ease;
 
     &:hover{
+    
         background-color: #a3ffbfa1;
         cursor: pointer;
     }

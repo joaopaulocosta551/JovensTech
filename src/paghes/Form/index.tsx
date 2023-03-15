@@ -1,6 +1,6 @@
 import { Footer } from "@/components/Footer";
 import { MenuNav } from "@/components/MenuNav";
-import { SectionForms } from "./SectionHero";
+import { SectionForms } from "./SectionForms";
 import { SectionForm } from "./styles";
 
 

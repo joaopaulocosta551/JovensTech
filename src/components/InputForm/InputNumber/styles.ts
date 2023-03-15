@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-export const Inputtext = styled.div`
+export const Inputnumber = styled.div`
   width: 100%;
-  max-height: 27.188rem;
+  max-width: 9.875rem;
   height: 3rem;
-  border-radius: 8px;
   border: 1px solid white;
+  border-radius: 8px;
   color: rgba(255, 255, 255, 0.65);
   transition: background-color 0.3s ease;
 
@@ -29,7 +29,3 @@ export const CustInput = styled.input`
   font-family: inherit;
   border: none;
 `
-
-
-
-
