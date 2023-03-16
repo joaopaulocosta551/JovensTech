@@ -16,7 +16,7 @@ export const Inputtext = styled.div`
 `;
 
 export const CustInput = styled.input`
-  width: 100%;
+  width: 95%;
   height: 2.9rem;
   color: rgba(255, 255, 255, 0.64);
   font-size: 16px;
@@ -28,6 +28,9 @@ export const CustInput = styled.input`
   margin: 0;
   font-family: inherit;
   border: none;
+  &::placeholder{
+    color: rgba(255, 255, 255, 0.64);
+  }
 `
 
 

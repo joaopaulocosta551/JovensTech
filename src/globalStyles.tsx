@@ -2,6 +2,20 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
 
+    /* input:-internal-autofill-selected {
+        appearance: menulist-button;
+        background-image: none !important;
+        background-color: -internal-light-dark(rgb(232, 240, 254), rgba(70, 90, 126, 0.4)) !important;
+        color: -internal-light-dark(black, white) !important;
+    } */
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active{
+        transition: background-color 9999s ease-in-out 0s;
+        color: white !important;
+    }
    
     body{
         margin: 0;

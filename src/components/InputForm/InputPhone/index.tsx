@@ -1,4 +1,4 @@
-import { InputCpf } from "./styles";
+import { InputTel } from "./styles";
 import InputMask from "react-input-mask";
 import "./styles.css";
 
@@ -7,17 +7,17 @@ interface Iprosp {
   placeholder: string;
 }
 
-export const InputCPF = ({ label, placeholder }: Iprosp) => {
+export const InputPhone = ({ label, placeholder }: Iprosp) => {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <label>{label}</label>
-      <InputCpf>
+      <InputTel>
         <InputMask
-          className="InputCPF"
-          mask="999.999.999-99"
+          className="InputTel"
+          mask="(99) 99999-9999"
           placeholder={placeholder}
         />
-      </InputCpf>
+      </InputTel>
     </div>
   );
 };

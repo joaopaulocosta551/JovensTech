@@ -14,6 +14,7 @@ import {
 } from "./styles";
 import {AiOutlineUser} from 'react-icons/ai'
 import { InputNumber } from "@/components/InputForm/InputNumber";
+import { InputPhone } from "@/components/InputForm/InputPhone";
 
 export const SectionForms = () => {
   return (
@@ -34,24 +35,25 @@ export const SectionForms = () => {
       <Paragraph>
         Esse é o primeiro passo que você vai dar para alavancar sua carreira.
       </Paragraph>
-      <form style={{ marginTop: "5.5rem", marginBottom: "3rem" }}>
+      <form style={{ marginTop: "2.5rem", marginBottom: "3rem" }}>
         <ContentForm>
-          <div style={{display: 'flex', alignItems:'center'}}><AiOutlineUser fontSize={'18px'}/><p style={{marginLeft:'10px'}}>Dados pessoas</p></div>
+          <div style={{display: 'flex', alignItems:'center', marginBottom:'1.5rem'}}><AiOutlineUser fontSize={'18px'}/><p style={{marginLeft:'10px'}}>Dados pessoas</p></div>
           <DivRowInputs>
-            <InputText/>
-            <InputData label="Data de nascimento" />
-            <InputCPF label={"CPF"} />
+            <InputText label="Nome completo" placeholder="Seu nome complete"/>
+            <InputData label="Data de nascimento" placeholder="dd/mm/aaaa"/>
+            <InputCPF label="CPF"  placeholder="000.000.000-00"/>
           </DivRowInputs>
           <DivRowInputs>
-            <InputText/>
-            <InputText/>
+            <InputText label="Email" placeholder="seuemail@email.com"/>
+            <InputPhone label="Contato" placeholder="(19) 99999-9999" />
           </DivRowInputs>
           <DivRowInputs>
-            <InputText/>
-            <InputText/>
-            <InputNumber/>
+            <InputText label="Endereço" placeholder="Rua dos jovenstech"/>
+            <InputText label="Bairro" placeholder="Bairro dos jovenstech"/>
+            <InputNumber label="Número" placeholder="0000"/>
           </DivRowInputs>
         </ContentForm>
+        <PrimaryButton value="Increva-se" />
       </form>
     </SectionTextForms>
   );

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export const InputCpf = styled.div`
-  display: flex;
-  width: 14.375rem;
+export const InputTel = styled.div`
+  width: 100%;
+  max-height: 27.188rem;
   height: 3rem;
   border-radius: 8px;
   border: 1px solid white;

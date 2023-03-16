@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const Inputnumber = styled.div`
-  width: 100%;
-  max-width: 9.875rem;
+  width: 9.875rem;
   height: 3rem;
   border: 1px solid white;
   border-radius: 8px;
@@ -16,7 +15,7 @@ export const Inputnumber = styled.div`
 `;
 
 export const CustInput = styled.input`
-  width: 100%;
+  width: 95%;
   height: 2.9rem;
   color: rgba(255, 255, 255, 0.64);
   font-size: 16px;
@@ -28,4 +27,7 @@ export const CustInput = styled.input`
   margin: 0;
   font-family: inherit;
   border: none;
+  &::placeholder{
+    color: rgba(255, 255, 255, 0.64);
+  }
 `
